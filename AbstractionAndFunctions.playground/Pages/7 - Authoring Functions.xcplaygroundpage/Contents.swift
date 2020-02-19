@@ -27,6 +27,60 @@ import Foundation
  */
 // Begin your work here...
 
+func areaOfTrianlge (base: Double, height: Double) -> Double{
+    
+    return (base * height) / 2
+}
+
+
+// Find the area of a circle
+
+func areaOfCircle (radius: Double) -> Double{
+    
+    return 2 * Double.pi * radius
+}
+
+// Find the perimeter of a circle
+
+func perimeterOfCircle (radius: Double) -> Double {
+    
+    return Double.pi * pow(radius, 2)
+}
+
+// Find the volume of a cilinder
+
+func volumeOfCilinder (radius: Double, height: Double) -> Double {
+    
+    return Double.pi * pow(radius, 2) * height
+}
+
+// Find the volume of a cone
+
+func volumeOfCone (radius: Double, height: Double) -> Double{
+    
+    return (1/3) * Double.pi * pow(radius, 2) * height
+}
+
+// Find the surface area of a rectangular prism
+
+func surfaceAreaOfRectangularPrism (width: Double, length: Double, height: Double) -> Double{
+    
+    return 2 * (width*height + height*length + length*width)
+}
+
+// Find the area of a sphere
+
+func areaOfSphere (radius: Double) -> Double {
+    
+    return 4 * Double.pi * pow(radius, 2)
+}
+
+// Find the perimeter of a triangle
+
+func perimeterOfTriangle (a: Double, b: Double, c: Double) -> Double{
+    
+    return a + b + c
+}
 
 
 /*:
